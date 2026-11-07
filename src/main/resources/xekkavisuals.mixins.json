@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.xekka.visuals.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "GameRendererMixin",
+    "LightmapTextureManagerMixin",
+    "PlayerEntityModelMixin",
+    "CapeFeatureRendererMixin",
+    "WorldRendererOverlaysMixin",
+    "BackgroundRendererMixin",
+    "InGameHudFireMixin",
+    "ClientWorldSkyMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

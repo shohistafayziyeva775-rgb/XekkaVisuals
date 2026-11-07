@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "xekkavisuals",
+  "version": "${version}",
+  "name": "XekkaVisuals",
+  "description": "Premium client-side visuals, cosmetics and emotes mod.",
+  "authors": ["Xekka"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.xekka.visuals.XekkaVisualsClient"]
+  },
+  "mixins": ["xekkavisuals.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "1.21.4",
+    "fabric-api": "*"
+  }
+}
